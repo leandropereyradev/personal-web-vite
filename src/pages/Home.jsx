@@ -3,7 +3,7 @@ import Sidebar from "../components/sidebar/Sidebar";
 
 const Home = () => {
   return (
-    <div className="xl:grid xl:grid-cols-layout-desktop xl:h-screen xl:w-11/12 xl:mx-auto">
+    <div className="xl:grid xl:grid-cols-layout-desktop xl:h-screen xl:w-full">
       <Sidebar />
       <MainContent />
     </div>
