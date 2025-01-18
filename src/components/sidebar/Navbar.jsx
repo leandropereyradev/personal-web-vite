@@ -43,7 +43,7 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="hidden xl:block">
+    <div className="hidden lg:block">
       <nav className="flex flex-col gap-4">
         {menu?.map(({ link, name }, i) => (
           <a key={i} href={link} className={isActiveLink(link)}>
