@@ -19,11 +19,11 @@ const Navbar = () => {
 
   const isActiveLink = (href) => {
     const defaultStyle =
-      " tracking-[0.2em] uppercase transition-all duration-300 xl:text-xl";
+      " tracking-[0.2em] uppercase transition-all duration-300 xl:text-lg fullHD:text-2xl";
     const isActive = currentHash === href;
 
     return isActive
-      ? "text-blue-400 font-bold ml-12" + defaultStyle
+      ? "text-blue-400 font-bold ml-40 fullHD:ml-56" + defaultStyle
       : "hover:text-blue-300 hover:font-bold" + defaultStyle;
   };
 
