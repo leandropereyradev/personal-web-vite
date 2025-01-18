@@ -1,5 +1,6 @@
 import Header from "./Header";
 import Navbar from "./Navbar";
+import ScrollIndicator from "./ScrollIndicator";
 import Social from "./Social";
 
 const Sidebar = () => {
@@ -8,6 +9,7 @@ const Sidebar = () => {
       <Header />
       <Navbar />
       <Social />
+      <ScrollIndicator />
     </section>
   );
 };
