@@ -4,7 +4,7 @@ import Projects from "./projects/Projects";
 
 const MainContent = () => {
   return (
-    <section className="xl:ml-[15%] xl:overflow-y-auto h-full">
+    <section className="h-full flex flex-col w-11/12 mx-auto gap-16 pt-10 xl:pt-14 fullHD:pt-20 xl:ml-[10%] xl:pr-10 xl:overflow-y-auto ">
       <About />
       <Experience />
       <Projects />
