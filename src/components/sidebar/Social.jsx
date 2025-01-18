@@ -15,13 +15,13 @@ const Social = () => {
   ];
   
   return (
-    <div className="flex gap-10 items-center md:gap-14 lg:gap-20">
+    <div className="flex gap-10 items-center md:gap-14 lg:gap-20 xl:gap-14">
       {contactIcon.map((item, index) => (
         <a key={index} href={item.ref} target="_blank" rel="noreferrer">
           <img
             src={`/assets/images/contact/${item.icon}.svg`}
             alt={item.icon}
-            className="h-8 md:h-12 lg:h-16"
+            className="h-8 md:h-12 lg:h-16 xl:h-9"
           />
         </a>
       ))}
