@@ -1,6 +1,6 @@
 const Experience = () => {
   return (
-    <div>
+    <div id="skills">
       <h1>Experience</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit minima

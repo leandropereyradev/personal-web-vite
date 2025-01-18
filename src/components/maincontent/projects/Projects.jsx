@@ -1,6 +1,6 @@
 const Projects = () => {
   return (
-    <div>
+    <div id="projects">
       <h1>Projects</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit minima
