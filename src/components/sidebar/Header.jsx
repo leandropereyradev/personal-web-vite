@@ -5,7 +5,7 @@ const Header = () => {
         Leandro <br />
         <span className="block">Pereyra</span>
       </h1>
-      <h2 className="text-2xl md:text-4xl lg:text-3xl xl:text-[2.3rem] fullHD:text-[3.4rem]">Desarrollador Web</h2>
+      <h2 className="text-blue-400 text-2xl md:text-4xl lg:text-3xl xl:text-[2.3rem] fullHD:text-[3.4rem]">Desarrollador Web</h2>
     </header>
   );
 };

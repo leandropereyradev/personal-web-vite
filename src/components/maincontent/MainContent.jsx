@@ -4,10 +4,10 @@ import Projects from "./projects/Projects";
 
 const MainContent = () => {
   return (
-    <section className="h-full flex flex-col w-11/12 mx-auto gap-16 pt-10 xl:pt-14 fullHD:pt-20 xl:ml-[10%] xl:pr-10 lg:overflow-y-auto ">
+    <section className="h-full flex flex-col gap-16 px-5 text-justify md:text-lg lg:overflow-y-auto xl:pl-36 xl:text-base fullHD:pl-72 fullHD:pr-10 fullHD:tracking-[0.2rem] fullHD:leading-relaxed">
       <About />
-      <Experience />
       <Projects />
+      <Experience />
     </section>
   );
 };
