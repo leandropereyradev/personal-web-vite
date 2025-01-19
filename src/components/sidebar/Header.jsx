@@ -1,7 +1,7 @@
 const Header = () => {
   return (
     <header className="flex flex-col gap-4 md:gap-10 lg:gap-6 xl:gap-8 fullHD:gap-12">
-      <a href="#about">
+      <a href="/">
         <h1 className="font-bold text-6xl leading-tight md:text-8xl lg:text-7xl fullHD:text-[5rem]">
           Leandro <br />
           <span className="block">Pereyra</span>
