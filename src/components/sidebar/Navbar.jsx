@@ -19,7 +19,7 @@ const Navbar = () => {
 
   const isActiveLink = (href) => {
     const defaultStyle =
-      " tracking-[0.2em] uppercase transition-all duration-300 xl:text-lg fullHD:text-2xl";
+      " tracking-[0.2em] uppercase transition-all duration-300";
     const isActive = currentHash === href;
 
     return isActive
@@ -44,11 +44,23 @@ const Navbar = () => {
 
   return (
     <div className="hidden lg:block">
-      <nav className="flex flex-col gap-4">
+      <nav>
         {menu?.map(({ link, name }, i) => (
-          <a key={i} href={link} className={isActiveLink(link)}>
-            {name}
-          </a>
+          <>
+            <div key={i} className="inline-block mb-4">
+              <a href={link} className={isActiveLink(link)}>
+                {name}
+              </a>
+              <div
+                style={{
+                  width: currentHash === link ? "calc(100% - 5px)" : "0",
+                  opacity: currentHash === link ? 1 : 0,
+                }}
+                className={`h-[2px] mt-[2px] bg-blue-400 transition-all duration-700`}
+              />
+            </div>
+            <br />
+          </>
         ))}
       </nav>
     </div>
