@@ -1,6 +1,6 @@
 import About from "./About";
 import Projects from "./projects/Projects";
-import Education from "../education/Education";
+import Education from "./education/Education";
 
 const MainContent = () => {
   return (
