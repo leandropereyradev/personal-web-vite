@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 
 const EducationItem = ({ date, program, institution, description }) => {
   return (
-    <div className="flex flex-col gap-12">
+    <div className="flex flex-col gap-12 justify-between">
       <div className="flex flex-col gap-2 md:grid md:grid-cols-education md:gap-4 md:pr-4">
         <div className="text-left">
           <p className="text-sm">{date}</p>

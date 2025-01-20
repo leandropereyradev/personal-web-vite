@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 
 const Project = ({ date, title, description, technologies, web, github }) => {
   return (
-    <div className="flex flex-col gap-4 mb-20 md:flex-row md:gap-6">
+    <div className="flex flex-col gap-4 md:flex-row md:gap-6">
       {/* Date Section */}
       <div>
         <span>{date}</span>
