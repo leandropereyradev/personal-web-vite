@@ -1,6 +1,7 @@
 import About from "./About";
 import Projects from "./projects/Projects";
 import Education from "./education/Education";
+import Footer from "./Footer";
 
 const MainContent = () => {
   return (
@@ -8,6 +9,7 @@ const MainContent = () => {
       <About />
       <Projects />
       <Education />
+      <Footer />
     </section>
   );
 };
