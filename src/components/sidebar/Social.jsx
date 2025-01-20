@@ -6,7 +6,7 @@ const Social = () => {
       {icons.map((item, index) => (
         <a key={index} href={item.ref} target="_blank" rel="noreferrer">
           <img
-            src={`personal-web-vite/assets/icons/${item.icon}.svg`}
+            src={`assets/icons/${item.icon}.svg`}
             alt={item.icon}
             className="h-8 md:h-12 lg:h-9 xl:h-8"
           />
