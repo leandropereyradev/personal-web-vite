@@ -9,6 +9,7 @@ export default {
       gridTemplateColumns: {
         navbar: "30% 70%",
         "layout-desktop": "40% 60%",
+        "education": "40% 60%",
       },
       colors: {
         "dark-grey": "#131313",

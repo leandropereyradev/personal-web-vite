@@ -1,0 +1,26 @@
+[
+  {
+    "institution": "Universae Online",
+    "program": "FP Superior en DAM",
+    "date": "Septiembre 2024 - Cursando",
+    "description": "Aprenderé a desarrollar aplicaciones multiplataforma para diferentes entornos (móvil, escritorio y web), utilizando lenguajes como Java, Swift, Kotlin y frameworks modernos. Me prepararé para roles de desarrollador de software en proyectos que requieran soluciones eficientes y escalables en múltiples plataformas."
+  },
+  {
+    "institution": "IT Academy",
+    "program": "Backend Java Developer",
+    "date": "Marzo 2024 - Julio 2024",
+    "description": "Especialización en desarrollo backend con Java, Spring Boot, JUnit y SQL. Aplicación de principios de desarrollo sólidos para crear soluciones backend eficientes."
+  },
+  {
+    "institution": "IronHack",
+    "program": "Desarrollador Full Stack",
+    "date": "Noviembre 2022 - Mayo 2023",
+    "description": "Formación intensiva en desarrollo web utilizando herramientas como React, Node.js, Express.js y MongoDB. Desarrollo de proyectos reales aplicando conocimientos de frontend y backend."
+  },
+  {
+    "institution": "EEM N° 6 - Buenos Aires, Argentina ",
+    "program": "Bachillerato",
+    "date": "Diciembre 2001",
+    "description": "Formación en Humanidades y Ciencias Sociales, obteniendo habilidades de investigación, análisis y comunicación efectiva."
+  }
+]
