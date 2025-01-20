@@ -1,0 +1,67 @@
+[
+  {
+    "date": "Enero 2025",
+    "title": "Proyecto Exámenes - Full Stack Developer",
+    "description": [
+      "Diseñando y desarrollando una aplicación web interactiva para autoevaluarme con uso de tarjetas de opciones múltiples.",
+      "Implementaré formularios dinámicos que generan automáticamente campos según la entrada del usuario para registrar materias y unidades.",
+      "Integraré una base de datos para almacenar las partidas, informes finales, y detalles de usuarios, con un enfoque en escalabilidad y rendimiento."
+    ],
+    "technologies": [
+      "React",
+      "PostgreSQL",
+      "Taildwind"
+    ],
+    "github": "",
+    "web": ""
+  },
+  {
+    "date": "Julio 2024",
+    "title": "Dice Game - Backend Java Developer",
+    "description": [
+      "Implementé una API REST para un juego de dados como proyecto final en mi curso de backend Java.",
+      "Utilicé JUnit para realizar pruebas unitarias que aseguran la estabilidad del código.",
+      "Integré MongoDB y SQL para manejar los datos del juego."
+    ],
+    "technologies": [
+      "Java",
+      "Spring Boot",
+      "MongoDB",
+      "SQL"
+    ],
+    "github": "https://github.com/leandropereyradev/sprint_5_dice_game",
+    "web": ""
+  },
+  {
+    "date": "Mayo 2023",
+    "title": "Paraná Aventura - Full Stack Developer",
+    "description": [
+      "Desarrollé una aplicación web de servicios para amantes de la pesca, integrando frontend en React y backend con Node.js y Express.",
+      "Implementé una RESTful API para la gestión de reservas y servicios adicionales, utilizando MongoDB como base de datos.",
+      "Apliqué principios SOLID y mejores prácticas en el desarrollo full stack, mejorando la escalabilidad y rendimiento de la aplicación."
+    ],
+    "technologies": [
+      "React",
+      "Node",
+      "Express",
+      "MongoDB"
+    ],
+    "github": "https://github.com/leandropereyradev/parana-aventura",
+    "web": ""
+  },
+  {
+    "date": "Enero 2023",
+    "title": "Wonder Ghost - Desarrollador Frontend",
+    "description": [
+      "Desarrollé un juego interactivo utilizando JavaScript, que implementa física básica para la interacción entre personajes.",
+      "Diseñé y animé el frontend con HTML y CSS, proporcionando una experiencia de usuario atractiva."
+    ],
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "github": "https://github.com/leandropereyradev/WonderGhost",
+    "web": ""
+  }
+]

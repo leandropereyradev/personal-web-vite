@@ -1,38 +1,21 @@
+import Project from "./Project";
+import projects from "../../../data/projects";
+
 const Projects = () => {
   return (
-    <div id="projects">
-      <h1>Projects</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit minima
-        optio molestiae! Suscipit omnis illum repudiandae ratione fugit dolor
-        perferendis natus. Ex magni praesentium aperiam dignissimos velit ullam,
-        aspernatur assumenda!Lorem ipsum dolor sit amet, consectetur adipisicing
-        elit. Fugit minima optio molestiae! Suscipit omnis illum repudiandae
-        ratione fugit dolor perferendis natus. Ex magni praesentium aperiam
-        dignissimos velit ullam, aspernatur assumenda!Lorem ipsum dolor sit
-        amet, consectetur adipisicing elit. Fugit minima optio molestiae!
-        Suscipit omnis illum repudiandae ratione fugit dolor perferendis natus.
-        Ex magni praesentium aperiam dignissimos velit ullam, aspernatur
-        assumenda!Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        Fugit minima optio molestiae! Suscipit omnis illum repudiandae ratione
-        fugit dolor perferendis natus. Ex magni praesentium aperiam dignissimos
-        velit ullam, aspernatur assumenda!Lorem ipsum dolor sit amet,
-        consectetur adipisicing elit. Fugit minima optio molestiae! Suscipit
-        omnis illum repudiandae ratione fugit dolor perferendis natus. Ex magni
-        praesentium aperiam dignissimos velit ullam, aspernatur assumenda!Lorem
-        ipsum dolor sit amet, consectetur adipisicing elit. Fugit minima optio
-        molestiae! Suscipit omnis illum repudiandae ratione fugit dolor
-        perferendis natus. Ex magni praesentium aperiam dignissimos velit ullam,
-        aspernatur assumenda!Lorem ipsum dolor sit amet, consectetur adipisicing
-        elit. Fugit minima optio molestiae! Suscipit omnis illum repudiandae
-        ratione fugit dolor perferendis natus. Ex magni praesentium aperiam
-        dignissimos velit ullam, aspernatur assumenda!Lorem ipsum dolor sit
-        amet, consectetur adipisicing elit. Fugit minima optio molestiae!
-        Suscipit omnis illum repudiandae ratione fugit dolor perferendis natus.
-        Ex magni praesentium aperiam dignissimos velit ullam, aspernatur
-        assumenda!
-      </p>
-    </div>
+    <section id="projects" className="pb-10">
+      {/* Section Title */}
+      <h1 className="text-blue-400 text-center text-2xl font-bold mb-6 md:text-3xl lg:pt-6 lg:pb-10 xl:text-3xl">
+        Proyectos
+      </h1>
+
+      {/* Project List */}
+      <div className="flex flex-col gap-10">
+        {projects.map((project, index) => (
+          <Project key={index} {...project} />
+        ))}
+      </div>
+    </section>
   );
 };
 
