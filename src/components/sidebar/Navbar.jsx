@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import menu from "../../data/menu";
 
 const Navbar = () => {
   const [currentHash, setCurrentHash] = useState(window.location.hash);
@@ -33,33 +34,28 @@ const Navbar = () => {
       : "hover:text-blue-300 hover:font-bold" + defaultStyle;
   };
 
-  const menu = [
-    { link: "#about", name: "Sobre Mi" },
-    { link: "#projects", name: "Proyectos" },
-    { link: "#skills", name: "Skills" },
-  ];
-
   return (
     <div className="hidden lg:block">
       <nav className="inline-block">
-        {menu?.map(({ link, name }, i) => (
-          <div key={i} className="mb-4">
-            <a
-              href={link}
-              className={isActiveLink(link)}
-              onClick={(e) => handleClick(e, link)}
-            >
-              {name}
-            </a>
-            <div
-              style={{
-                width: currentHash === link ? "calc(100% - 3px)" : "0",
-                opacity: currentHash === link ? 1 : 0,
-              }}
-              className={`h-[2px] mt-[2px] bg-blue-400 transition-all duration-700`}
-            />
-          </div>
-        ))}
+        {menu &&
+          menu.map(({ link, name }, i) => (
+            <div key={i} className="mb-4">
+              <a
+                href={link}
+                className={isActiveLink(link)}
+                onClick={(e) => handleClick(e, link)}
+              >
+                {name}
+              </a>
+              <div
+                style={{
+                  width: currentHash === link ? "calc(100% - 3px)" : "0",
+                  opacity: currentHash === link ? 1 : 0,
+                }}
+                className={`h-[2px] mt-[2px] bg-blue-400 transition-all duration-700`}
+              />
+            </div>
+          ))}
       </nav>
     </div>
   );
