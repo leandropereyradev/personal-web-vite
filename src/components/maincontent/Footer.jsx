@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <footer className="flex flex-col items-center text-gray-50 pb-3 text-xs">
-      <h1>www.LeandroPereyra.com</h1>
+      <h1>Leandro Pereyra</h1>
       <p>Copyright © 2025. Todos los Derechos Reservados</p>
     </footer>
   );
