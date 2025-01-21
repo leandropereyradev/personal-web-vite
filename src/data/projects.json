@@ -19,7 +19,7 @@
     "date": "Enero 2025",
     "title": "Personal Web - Frontend Developer",
     "description": [
-      "Diseñé un portafolio web con un enfoque en la simplicidad y navegación intuitiva.",
+      "Diseñé este portfolio web con un enfoque en la simplicidad y navegación intuitiva.",
       "Apliqué un diseño minimalista utilizando React y Tailwind CSS para mantener la estética limpia y moderna.",
       "Optimizé el rendimiento con Vite, asegurando tiempos de carga rápidos y experiencia fluida."
     ],
@@ -78,6 +78,6 @@
       "JavaScript"
     ],
     "github": "https://github.com/leandropereyradev/WonderGhost",
-    "web": ""
+    "web": "https://wonder-ghost.vercel.app/"
   }
 ]
