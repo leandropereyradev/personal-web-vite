@@ -16,6 +16,22 @@
     "web": ""
   },
   {
+    "date": "Enero 2025",
+    "title": "Personal Web - Frontend Developer",
+    "description": [
+      "Diseñé un portafolio web con un enfoque en la simplicidad y navegación intuitiva.",
+      "Apliqué un diseño minimalista utilizando React y Tailwind CSS para mantener la estética limpia y moderna.",
+      "Optimizé el rendimiento con Vite, asegurando tiempos de carga rápidos y experiencia fluida."
+    ],
+    "technologies": [
+      "React",
+      "Vite",
+      "Tailwind"
+    ],
+    "github": "https://github.com/leandropereyradev/personal-web-vite",
+    "web": ""
+  },
+  {
     "date": "Julio 2024",
     "title": "Dice Game - Backend Java Developer",
     "description": [
