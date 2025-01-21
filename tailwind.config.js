@@ -13,7 +13,7 @@ export default {
         "about": "40% 60%",
       },
       colors: {
-        "dorado": "rgb(158, 136, 47)",
+        "dorado": "rgb(201, 178, 86)",
         "skill": "rgb(91, 105, 65)",
       },
     },
