@@ -8,7 +8,7 @@ const CardImage = () => {
   };
 
   return (
-    <div className="w-96 mx-auto my-10 flex flex-col gap-6 md:grid md:w-11/12 md:grid-cols-about md:gap-6 md:pr-6 xl:w-9/12 md:items-center">
+    <div className="w-11/12 mx-auto my-10 flex flex-col gap-6 md:grid md:w-11/12 md:grid-cols-about md:gap-6 md:pr-6 xl:w-9/12 md:items-center">
       <img
         src={content.imageSrc}
         alt={content.imageAlt}
@@ -21,7 +21,7 @@ const CardImage = () => {
             href={content.repoLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="px-4 py-2 bg-dorado font-semibold rounded-xl lg:text-xs lg:px-2 lg:py-1 lg:rounded-md"
+            className="px-4 py-2 bg-dorado font-semibold rounded-xl text-white transition-transform duration-300 ease-in-out hover:scale-105"
           >
             Repo en GitHub
           </a>
