@@ -5,18 +5,15 @@ const ScrollIndicator = () => {
   const [isVisible, setIsVisible] = useState(true);
 
   useEffect(() => {
-    const handleScroll = () => {
-      setIsVisible(true);
-
-      if (window.scrollY > 50) setIsVisible(false);
-    };
+    const handleScroll = () => setIsVisible(window.scrollY <= 50);
 
     window.addEventListener("scroll", handleScroll);
-
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  return !isVisible ? null : (
+  if (!isVisible) return null;
+
+  return (
     <div className="fixed bottom-4 right-8 transform -translate-x-1/2 animate-bounce lg:hidden">
       <BsChevronDown className="text-blue-400 text-3xl md:text-5xl" />
     </div>
