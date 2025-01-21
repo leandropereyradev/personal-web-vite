@@ -12,7 +12,7 @@ const EducationItem = ({ date, program, institution, description }) => (
       <p className="text-sm">{description}</p>
     </div>
 
-    <div className="w-11/12 mx-auto h-[1px] bg-blue-400 md:w-2/4 xl:w-1/3 xl:mb-4" />
+    <div className="w-11/12 mx-auto h-[1px] bg-dorado md:w-2/4 xl:w-1/3 xl:mb-4" />
   </div>
 );
 

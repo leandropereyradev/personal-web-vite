@@ -10,9 +10,11 @@ export default {
         navbar: "30% 70%",
         "layout-desktop": "40% 60%",
         "education": "40% 60%",
+        "about": "40% 60%",
       },
       colors: {
-        "dark-grey": "#131313",
+        "dorado": "rgb(201, 178, 86)",
+        "skill": "rgb(91, 105, 65)",
       },
     },
   },

@@ -26,8 +26,8 @@ const Navbar = () => {
   const isActiveLink = (href) =>
     `tracking-[0.2em] uppercase transition-all duration-300 ${
       currentHash === href
-        ? "text-blue-400 font-bold ml-40 fullHD:ml-56"
-        : "hover:text-blue-300 hover:font-bold"
+        ? "text-dorado font-bold ml-40 fullHD:ml-56"
+        : "hover:text-dorado hover:font-bold"
     }`;
 
   return (
@@ -45,7 +45,7 @@ const Navbar = () => {
                 {name}
               </a>
               <div
-                className={`h-[2px] mt-[2px] bg-blue-400 transition-all duration-700`}
+                className={`h-[2px] mt-[2px] bg-dorado transition-all duration-700`}
                 style={{
                   width: isActive ? "calc(100% - 3px)" : "0",
                   opacity: isActive ? 1 : 0,

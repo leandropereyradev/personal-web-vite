@@ -1,6 +1,8 @@
+import CardImage from "./CardImage";
+
 const About = () => (
   <div id="about" className="pt-10 xl:pt-14 fullHD:pt-12">
-    <h1 className="text-blue-400 text-center text-2xl font-bold mb-6 md:text-3xl lg:pt-6 lg:pb-10 xl:text-3xl">
+    <h1 className="text-dorado text-center text-2xl font-bold mb-6 md:text-3xl lg:pt-6 lg:pb-10 xl:text-3xl">
       ¡Hola! Soy Desarrollador Web
     </h1>
 
@@ -24,15 +26,26 @@ const About = () => (
         diferencia.
       </p>
       <p>
-        Actualmente, estudio{" "}
+        Estudio{" "}
         <span className="italic font-bold">
-          Desarrollo de Aplicaciones Multiplataforma (DAM)
+          {" "}
+          Desarrollo de Aplicaciones Multiplataforma (DAM){" "}
         </span>{" "}
-        en Universae y en mi tiempo libre me formo en testing para asegurar
-        calidad. También estoy desarrollando una app personal para estudiar. Uso
-        React y Local Storage, por el momento, sin embargo planeo integrar
-        PostgreSQL y un backend con NestJS. ¡Es un reto que disfruto cada día!
+        en Universae y, en mi tiempo libre, me formo en testing para asegurar
+        calidad. Estoy creando una app personal para repasar lo aprendido en la
+        FP mediante preguntas interactivas de opción múltiple. Permitirá cargar
+        información de las unidades, organizar preguntas por materia y unidad, y
+        generar informes para identificar áreas de mejora.
       </p>
+      <p>
+        Las partidas se guardarán en una base de datos para seguir mi progreso y
+        repetir exámenes. También incluirá formularios para gestionar materias
+        de forma dinámica. Uso React y Local Storage, con planes de integrar
+        PostgreSQL y NestJS para optimizar la app. ¡Es un reto emocionante!
+      </p>
+
+      <CardImage />
+
       <p>
         Cuando no programo, viajo con mi familia, disfruto de pelis de terror
         paranormal y épicas de ángeles y demonios, o voy al gym a optimizar mi{" "}

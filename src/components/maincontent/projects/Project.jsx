@@ -23,7 +23,7 @@ const Project = ({ date, title, description, technologies, web, github }) => (
         {technologies.map((tech, index) => (
           <span
             key={index}
-            className="px-4 py-2 bg-gray-700 font-semibold rounded-xl"
+            className="px-4 py-2 bg-skill font-semibold rounded-xl"
           >
             {tech}
           </span>
@@ -38,7 +38,7 @@ const Project = ({ date, title, description, technologies, web, github }) => (
               href={web}
               target="_blank"
               rel="noopener noreferrer"
-              className="px-4 py-2 bg-blue-900 font-semibold rounded-xl"
+              className="px-4 py-2 bg-dorado font-semibold rounded-xl text-white transition-transform duration-300 ease-in-out hover:scale-105"
             >
               Ver Web
             </a>
@@ -48,7 +48,7 @@ const Project = ({ date, title, description, technologies, web, github }) => (
               href={github}
               target="_blank"
               rel="noopener noreferrer"
-              className="px-4 py-2 bg-blue-900 font-semibold rounded-xl"
+              className="px-4 py-2 bg-dorado font-semibold rounded-xl text-white transition-transform duration-300 ease-in-out hover:scale-105"
             >
               Ver GitHub
             </a>
