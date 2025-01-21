@@ -1,3 +1,5 @@
+import CardImage from "./CardImage";
+
 const About = () => (
   <div id="about" className="pt-10 xl:pt-14 fullHD:pt-12">
     <h1 className="text-blue-400 text-center text-2xl font-bold mb-6 md:text-3xl lg:pt-6 lg:pb-10 xl:text-3xl">
@@ -41,30 +43,9 @@ const About = () => (
         de forma dinámica. Uso React y Local Storage, con planes de integrar
         PostgreSQL y NestJS para optimizar la app. ¡Es un reto emocionante!
       </p>
-      <div className="w-96 mx-auto my-10 flex flex-col gap-6 md:grid md:w-11/12 md:grid-cols-about md:gap-6 md:pr-6 xl:w-9/12 md:items-center">
-        <img
-          src={`${import.meta.env.BASE_URL}assets/images/img1.jpg`}
-          alt="MasterClass"
-          className="rounded-md"
-        />
-        <div className="flex flex-col gap-6">
-          <p className="text-sm italic xl:text-xs">
-            Impartiendo una Master Class sobre Log4J durante mi paso por el
-            bootcamp Backend Java Developer de IT Academy. Una experiencia
-            dinámica, participativa y muy enriquecedora.
-          </p>
-          <div className="flex justify-center">
-            <a
-              href="https://github.com/leandropereyradev/master_class_log4j"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-4 py-2 bg-blue-900 font-semibold rounded-xl lg:text-xs lg:px-2 lg:py-1 lg:rounded-md"
-            >
-              Repo en GitHub
-            </a>
-          </div>
-        </div>
-      </div>
+
+      <CardImage />
+
       <p>
         Cuando no programo, viajo con mi familia, disfruto de pelis de terror
         paranormal y épicas de ángeles y demonios, o voy al gym a optimizar mi{" "}
