@@ -1,6 +1,6 @@
 const CardImage = () => {
   const content = {
-    imageSrc: `${import.meta.env.BASE_URL}assets/images/img1.jpg`,
+    imageSrc: `assets/images/img1.jpg`,
     imageAlt: "MasterClass Log4J",
     description:
       "Impartiendo una Master Class sobre Log4J durante mi paso por el bootcamp Backend Java Developer de IT Academy. Una experiencia dinámica, participativa y muy enriquecedora.",
