@@ -2,7 +2,7 @@ import CardImage from "./CardImage";
 
 const About = () => (
   <div id="about" className="pt-10 xl:pt-14 fullHD:pt-12">
-    <h1 className="text-blue-400 text-center text-2xl font-bold mb-6 md:text-3xl lg:pt-6 lg:pb-10 xl:text-3xl">
+    <h1 className="text-dorado text-center text-2xl font-bold mb-6 md:text-3xl lg:pt-6 lg:pb-10 xl:text-3xl">
       ¡Hola! Soy Desarrollador Web
     </h1>
 

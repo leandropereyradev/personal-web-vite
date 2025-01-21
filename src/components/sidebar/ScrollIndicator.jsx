@@ -15,7 +15,7 @@ const ScrollIndicator = () => {
 
   return (
     <div className="fixed bottom-4 right-8 transform -translate-x-1/2 animate-bounce lg:hidden">
-      <BsChevronDown className="text-blue-400 text-3xl md:text-5xl" />
+      <BsChevronDown className="text-dorado text-3xl md:text-5xl" />
     </div>
   );
 };

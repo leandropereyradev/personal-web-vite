@@ -21,7 +21,7 @@ const CardImage = () => {
             href={content.repoLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="px-4 py-2 bg-blue-900 font-semibold rounded-xl lg:text-xs lg:px-2 lg:py-1 lg:rounded-md"
+            className="px-4 py-2 bg-dorado font-semibold rounded-xl lg:text-xs lg:px-2 lg:py-1 lg:rounded-md"
           >
             Repo en GitHub
           </a>

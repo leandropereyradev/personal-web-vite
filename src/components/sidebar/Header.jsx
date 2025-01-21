@@ -6,7 +6,7 @@ const Header = () => (
         <span className="block">Pereyra</span>
       </h1>
     </a>
-    <h2 className="text-blue-400 text-2xl md:text-4xl lg:text-3xl fullHD:text-[2.1rem]">
+    <h2 className="text-dorado text-2xl md:text-4xl lg:text-3xl fullHD:text-[2.1rem]">
       Desarrollador Web
     </h2>
   </header>
