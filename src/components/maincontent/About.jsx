@@ -24,15 +24,47 @@ const About = () => (
         diferencia.
       </p>
       <p>
-        Actualmente, estudio{" "}
+        Estudio{" "}
         <span className="italic font-bold">
-          Desarrollo de Aplicaciones Multiplataforma (DAM)
+          {" "}
+          Desarrollo de Aplicaciones Multiplataforma (DAM){" "}
         </span>{" "}
-        en Universae y en mi tiempo libre me formo en testing para asegurar
-        calidad. También estoy desarrollando una app personal para estudiar. Uso
-        React y Local Storage, por el momento, sin embargo planeo integrar
-        PostgreSQL y un backend con NestJS. ¡Es un reto que disfruto cada día!
+        en Universae y, en mi tiempo libre, me formo en testing para asegurar
+        calidad. Estoy creando una app personal para repasar lo aprendido en la
+        FP mediante preguntas interactivas de opción múltiple. Permitirá cargar
+        información de las unidades, organizar preguntas por materia y unidad, y
+        generar informes para identificar áreas de mejora.
       </p>
+      <p>
+        Las partidas se guardarán en una base de datos para seguir mi progreso y
+        repetir exámenes. También incluirá formularios para gestionar materias
+        de forma dinámica. Uso React y Local Storage, con planes de integrar
+        PostgreSQL y NestJS para optimizar la app. ¡Es un reto emocionante!
+      </p>
+      <div className="w-96 mx-auto my-10 flex flex-col gap-6 md:grid md:w-11/12 md:grid-cols-about md:gap-6 md:pr-6 xl:w-9/12 md:items-center">
+        <img
+          src={`${import.meta.env.BASE_URL}assets/images/img1.jpg`}
+          alt="MasterClass"
+          className="rounded-md"
+        />
+        <div className="flex flex-col gap-6">
+          <p className="text-sm italic xl:text-xs">
+            Impartiendo una Master Class sobre Log4J durante mi paso por el
+            bootcamp Backend Java Developer de IT Academy. Una experiencia
+            dinámica, participativa y muy enriquecedora.
+          </p>
+          <div className="flex justify-center">
+            <a
+              href="https://github.com/leandropereyradev/master_class_log4j"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-4 py-2 bg-blue-900 font-semibold rounded-xl lg:text-xs lg:px-2 lg:py-1 lg:rounded-md"
+            >
+              Repo en GitHub
+            </a>
+          </div>
+        </div>
+      </div>
       <p>
         Cuando no programo, viajo con mi familia, disfruto de pelis de terror
         paranormal y épicas de ángeles y demonios, o voy al gym a optimizar mi{" "}
